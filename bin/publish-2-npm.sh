@@ -4,7 +4,7 @@ changelog_name="CHANGELOG.md"
 # runtime constants
 #
 new_version_semver=${NEW_VERSION:-"patch"}
-old_version=$(./node_modules/.bin/lsc -e "require './package.json' .version |> console.log")
+old_version=$(node -e "console.log(require('./package.json').version)")
 #
 # actual script
 #
@@ -18,11 +18,11 @@ npm version
 
 echo "Bump version completed"
 
-new_version=$(./node_modules/.bin/lsc -e "require './package.json' .version |> console.log")
+new_version=$(node -e "console.log(require('./package.json').version)")
 if [[ ! -f $changelog_name ]]; then
   old_version=$(git log --pretty=format:%H | tail -1)
 fi
-./node_modules/.bin/lsc ./lib/changelog.ls $changelog_name $old_version
+node ./lib/changelog.js $changelog_name $old_version
 git add $changelog_name
 git commit --amend --no-edit
 git tag -fa v$new_version
