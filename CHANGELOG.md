@@ -1,3 +1,11 @@
+### 0.0.5 (2014-09-26)
+
+
+#### Features
+
+* **publish-2-npm:** remove lsc dependency ([8784b3b8](https://github.com/tomchentw/tomchentw-npm-dev/commit/8784b3b8e2f6c6e0845c7a6f205d899e027471cb))
+
+
 ### 0.0.4 (2014-09-26)
 
 
