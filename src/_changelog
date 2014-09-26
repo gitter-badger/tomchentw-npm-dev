@@ -14,7 +14,7 @@ function throwError (err)
 
 [_, _, file, oldVersion] = process.argv
 
-fromCommitOrVersion = if oldVersion.split '.' .length
+fromCommitOrVersion = if oldVersion.split '.' .length is 2
   "v#{ oldVersion }"
 else
   oldVersion

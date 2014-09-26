@@ -11,7 +11,7 @@ function throwError(err){
   }
 }
 ref$ = process.argv, _ = ref$[0], _ = ref$[1], file = ref$[2], oldVersion = ref$[3];
-fromCommitOrVersion = oldVersion.split('.').length ? "v" + oldVersion : oldVersion;
+fromCommitOrVersion = oldVersion.split('.').length === 2 ? "v" + oldVersion : oldVersion;
 changelog({
   file: file,
   from: fromCommitOrVersion,
