@@ -14,10 +14,15 @@ function throwError (err)
 
 [_, _, file, oldVersion] = process.argv
 
+fromCommitOrVersion = if oldVersion.split '.' .length
+  "v#{ oldVersion }"
+else
+  oldVersion
+
 # https://www.npmjs.org/doc/misc/npm-scripts.html#package-json-vars
 (err, content) <-! changelog {
   file
-  from: "v#{ oldVersion }"
+  from: fromCommitOrVersion
   version: json.version
   repository: json.repository.url
 }

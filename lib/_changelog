@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var fs, Path, changelog, json, ref$, _, file, oldVersion;
+var fs, Path, changelog, json, ref$, _, file, oldVersion, fromCommitOrVersion;
 fs = require('fs');
 Path = require('path');
 changelog = require('conventional-changelog');
@@ -11,9 +11,10 @@ function throwError(err){
   }
 }
 ref$ = process.argv, _ = ref$[0], _ = ref$[1], file = ref$[2], oldVersion = ref$[3];
+fromCommitOrVersion = oldVersion.split('.').length ? "v" + oldVersion : oldVersion;
 changelog({
   file: file,
-  from: "v" + oldVersion,
+  from: fromCommitOrVersion,
   version: json.version,
   repository: json.repository.url
 }, function(err, content){
