@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/tomchentw/tomchentw-npm-dev/issues"
   },
-  "homepage": "https://github.com/tomchentw/tomchentw-npm-dev"
+  "homepage": "https://github.com/tomchentw/tomchentw-npm-dev",
+  "devDependencies": {
+    "LiveScript": "^1.2.0"
+  }
 }
