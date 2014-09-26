@@ -1,3 +1,11 @@
+### 0.0.10 (2014-09-26)
+
+
+#### Bug Fixes
+
+* **_changelog:** read from lib and compile from src ([9c55b372](https://github.com/tomchentw/tomchentw-npm-dev/commit/9c55b3727e8de7cb22b93c83bed0c515d8fbf849))
+
+
 ### 0.0.9 (2014-09-26)
 
 
