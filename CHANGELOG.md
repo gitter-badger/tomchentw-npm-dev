@@ -1,3 +1,14 @@
+### 0.0.4 (2014-09-26)
+
+
+#### Bug Fixes
+
+* **changelog:**
+  * version should prefix with v ([14bb6a4d](https://github.com/tomchentw/tomchentw-npm-dev/commit/14bb6a4db074cc76fdf511332ff7a3499aa355dc))
+  * add PWD to changelog file path ([f7dacc1c](https://github.com/tomchentw/tomchentw-npm-dev/commit/f7dacc1c68cdc4e8394624f76b5e5c939bd23704))
+* **publish-2-npm:** update git tag after commit amend ([ec74e800](https://github.com/tomchentw/tomchentw-npm-dev/commit/ec74e8009ff669b6e47b77bfdb25245470371a66))
+
+
 ### 0.0.3 (2014-09-26)
 
 
