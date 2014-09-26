@@ -5,12 +5,13 @@
   "main": "index.js",
   "bin": {
     "deploy-2-gh-pages": "./deploy-2-gh-pages.sh",
-    "_changelog": "./src/_changelog",
+    "_changelog": "./lib/_changelog",
     "publish-2-npm": "./publish-2-npm.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp -r ./src/* ./node_modules/.bin && chmod +x ./node_modules/.bin/*"
+    "compile": "lsc -b -c -o lib/ src/*",
+    "build": "cp -r lib/* node_modules/.bin && chmod +x node_modules/.bin/*"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+var fs, Path, changelog, json, ref$, _, file, oldVersion;
+fs = require('fs');
+Path = require('path');
+changelog = require('conventional-changelog');
+json = require(Path.join(process.env.PWD, 'package.json'));
+function throwError(err){
+  if (err) {
+    throw err;
+  }
+}
+ref$ = process.argv, _ = ref$[0], _ = ref$[1], file = ref$[2], oldVersion = ref$[3];
+changelog({
+  file: file,
+  from: "v" + oldVersion,
+  version: json.version,
+  repository: json.repository.url
+}, function(err, content){
+  var filepath;
+  throwError(err);
+  filepath = Path.join(process.env.PWD, file);
+  fs.writeFile(filepath, content, throwError);
+});
