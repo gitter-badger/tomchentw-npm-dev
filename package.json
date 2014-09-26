@@ -35,5 +35,8 @@
   "homepage": "https://github.com/tomchentw/tomchentw-npm-dev",
   "devDependencies": {
     "LiveScript": "^1.2.0"
+  },
+  "dependencies": {
+    "conventional-changelog": "0.0.11"
   }
 }
