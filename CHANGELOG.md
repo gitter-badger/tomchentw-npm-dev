@@ -1,3 +1,11 @@
+### 0.0.7 (2014-09-26)
+
+
+#### Features
+
+* **_changelog:** expose _changelog as binary for publish-2-npm ([6f0dabea](https://github.com/tomchentw/tomchentw-npm-dev/commit/6f0dabeae25410a32aa49a51ad249906b682011f))
+
+
 ### 0.0.6 (2014-09-26)
 
 
