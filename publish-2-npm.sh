@@ -22,7 +22,7 @@ new_version=$(node -e "console.log(require('./package.json').version)")
 if [[ ! -f $changelog_name ]]; then
   old_version=$(git log --pretty=format:%H | tail -1)
 fi
-node ./lib/changelog.js $changelog_name $old_version
+node ./_changelog.js $changelog_name $old_version
 git add $changelog_name
 git commit --amend --no-edit
 git tag -fa v$new_version

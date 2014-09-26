@@ -4,12 +4,13 @@
   "description": "tomchentw's dev helpers for maintaining npm packages",
   "main": "index.js",
   "bin": {
-    "deploy-2-gh-pages": "./bin/deploy-2-gh-pages.sh",
-    "publish-2-npm": "./bin/publish-2-npm.sh"
+    "deploy-2-gh-pages": "./deploy-2-gh-pages.sh",
+    "_changelog": "./_changelog.js",
+    "publish-2-npm": "./publish-2-npm.sh"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lsc -b -c -o lib src/*"
+    "build": "lsc -b -c -o ./ src/*"
   },
   "repository": {
     "type": "git",
