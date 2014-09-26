@@ -1,3 +1,11 @@
+### 0.0.8 (2014-09-26)
+
+
+#### Bug Fixes
+
+* **publish-2-npm:** treat src/_changelog like binary ([96b7d99b](https://github.com/tomchentw/tomchentw-npm-dev/commit/96b7d99bc5583cb162a7742b6e7f4d7ca47633ad))
+
+
 ### 0.0.7 (2014-09-26)
 
 
