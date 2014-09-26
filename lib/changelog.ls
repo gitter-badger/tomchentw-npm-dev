@@ -1,9 +1,10 @@
 require! {
   fs
+  Path: path
   changelog: 'conventional-changelog'
 }
 
-const json = require "#{ process.env.PWD }/package.json"
+const json = require Path.join process.env.PWD, 'package.json'
 
 function throwError (err)
   throw err if err
@@ -18,4 +19,5 @@ function throwError (err)
   repository: json.repository.url
 }
 throwError err
-fs.writeFile file, content, throwError
+const filepath = Path.join process.env.PWD, file
+fs.writeFile filepath, content, throwError
