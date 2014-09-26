@@ -1,3 +1,11 @@
+### 0.0.9 (2014-09-26)
+
+
+#### Bug Fixes
+
+* **package.json:** read _changelog from src ([ca9ecc0e](https://github.com/tomchentw/tomchentw-npm-dev/commit/ca9ecc0ef10562a6d320f705478bd09e19df6aa9))
+
+
 ### 0.0.8 (2014-09-26)
 
 
