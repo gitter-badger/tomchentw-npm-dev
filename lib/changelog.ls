@@ -14,7 +14,7 @@ function throwError (err)
 # https://www.npmjs.org/doc/misc/npm-scripts.html#package-json-vars
 (err, content) <-! changelog {
   file
-  from: oldVersion
+  from: "v#{ oldVersion }"
   version: json.version
   repository: json.repository.url
 }
