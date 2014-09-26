@@ -1,0 +1,20 @@
+### 0.0.3 (2014-09-26)
+
+
+#### Features
+
+* **publish-2-npm:**
+  * add CHANGELOG.md support ([65d7f96a](https://github.com/tomchentw/tomchentw-npm-dev/commit/65d7f96aa2dd59eef4882ec8e635f0b5049488f6))
+  * make conventional commit message ([6f1e5643](https://github.com/tomchentw/tomchentw-npm-dev/commit/6f1e564342e8e493bd06b1d4408231d4ee76782b))
+
+
+### 0.0.1 (2014-09-26)
+
+
+#### Features
+
+* **publish-2-npm:**
+  * first release ([7381d8a9](https://github.com/tomchentw/tomchentw-npm-dev/commit/7381d8a9127cfebacaca5133aa3f2f7693918001))
+* **deploy-2-gh-pages:**
+  * first release ([7381d8a9](https://github.com/tomchentw/tomchentw-npm-dev/commit/7381d8a9127cfebacaca5133aa3f2f7693918001))
+
