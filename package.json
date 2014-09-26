@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": {
     "deploy-2-gh-pages": "./deploy-2-gh-pages.sh",
-    "_changelog": "./node_modules/.bin/_changelog",
+    "_changelog": "./src/_changelog",
     "publish-2-npm": "./publish-2-npm.sh"
   },
   "scripts": {
