@@ -1,3 +1,11 @@
+### 0.0.13 (2014-09-26)
+
+
+#### Bug Fixes
+
+* **_changelog:** length is 3 ([31998e69](https://github.com/tomchentw/tomchentw-npm-dev/commit/31998e69ccae44dd2f41f29c321ae822d02f8897))
+
+
 ### 0.0.12 (2014-09-26)
 
 
