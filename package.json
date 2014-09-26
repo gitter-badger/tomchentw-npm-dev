@@ -1,0 +1,35 @@
+{
+  "name": "tomchentw-npm-dev",
+  "version": "0.0.0",
+  "description": "tomchentw's dev helpers for maintaining npm packages",
+  "main": "index.js",
+  "bin": {
+    "deploy-2-gh-pages": "./bin/deploy-2-gh-pages.sh",
+    "publish-2-npm": "./bin/publish-2-npm.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomchentw/tomchentw-npm-dev"
+  },
+  "keywords": [
+    "template",
+    "helpers",
+    "npm"
+  ],
+  "author": {
+    "name": "tomchentw",
+    "email": "developer@tomchentw.com",
+    "url": "https://github.com/tomchentw"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://tomchentw.mit-license.org"
+  },
+  "bugs": {
+    "url": "https://github.com/tomchentw/tomchentw-npm-dev/issues"
+  },
+  "homepage": "https://github.com/tomchentw/tomchentw-npm-dev"
+}
