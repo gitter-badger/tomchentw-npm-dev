@@ -1,3 +1,11 @@
+### 0.0.6 (2014-09-26)
+
+
+#### Bug Fixes
+
+* **package.json:** add conventional-changelog to dependencies ([73b0f3f3](https://github.com/tomchentw/tomchentw-npm-dev/commit/73b0f3f3746cd79579f4e7268777be4283871b77))
+
+
 ### 0.0.5 (2014-09-26)
 
 
