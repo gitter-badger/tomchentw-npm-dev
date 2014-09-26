@@ -1,3 +1,11 @@
+### 0.0.11 (2014-09-26)
+
+
+#### Bug Fixes
+
+* **_changelog:** add v before checking it is actually a semver ([16c61937](https://github.com/tomchentw/tomchentw-npm-dev/commit/16c61937c717b163763f5d56e107abe62f133a87))
+
+
 ### 0.0.10 (2014-09-26)
 
 

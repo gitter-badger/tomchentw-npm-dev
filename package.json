@@ -1,6 +1,6 @@
 {
   "name": "tomchentw-npm-dev",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "tomchentw's dev helpers for maintaining npm packages",
   "main": "index.js",
   "bin": {
