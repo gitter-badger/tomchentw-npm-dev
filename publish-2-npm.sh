@@ -8,7 +8,7 @@ old_version=$(node -e "console.log(require('./package.json').version)")
 #
 # actual script
 #
-npm run build
+NODE_ENV=production npm run build
 git add -A
 git commit
 
