@@ -1,3 +1,11 @@
+## 1.0.0 (2014-10-12)
+
+
+#### Features
+
+* **publish-2-npm:** add NODE_ENV=production ([1b8b1fce](https://github.com/tomchentw/tomchentw-npm-dev/commit/1b8b1fce2ade047f8aba07d846584a247a31602f))
+
+
 ### 0.0.13 (2014-09-26)
 
 
