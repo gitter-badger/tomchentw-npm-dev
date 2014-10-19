@@ -1,3 +1,19 @@
+## 1.1.0 (2014-10-19)
+
+
+#### Features
+
+* **deploy-2-gh-pages:** build script changed to build_client ([55d7d809](https://github.com/tomchentw/tomchentw-npm-dev/commit/55d7d8095219f2d0ebe525cc7883b3dc2472d6f6))
+
+
+#### Breaking Changes
+
+* 
+`npm run build` to `npm run build_client`
+
+ ([55d7d809](https://github.com/tomchentw/tomchentw-npm-dev/commit/55d7d8095219f2d0ebe525cc7883b3dc2472d6f6))
+
+
 ## 1.0.0 (2014-10-12)
 
 
