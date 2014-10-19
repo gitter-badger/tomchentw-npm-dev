@@ -10,7 +10,7 @@ develop_branch="master"
 basename=$(basename "$PWD")
 temp_folder=$(mktemp -d -t "$basename")
 last_commit=$(git rev-parse --short=10 HEAD)
-new_release_msg="chore(release): $last_commit by Makefile"
+new_release_msg="chore(gh-pages): release $last_commit by tomchentw-npm-dev/deploy-2-gh-pages"
 #
 # actual script
 #
