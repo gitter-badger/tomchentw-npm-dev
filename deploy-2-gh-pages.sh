@@ -15,7 +15,7 @@ new_release_msg="chore(release): $last_commit by Makefile"
 # actual script
 #
 rm -rf public/assets
-NODE_ENV=production npm run build
+NODE_ENV=production npm run build_client
 
 cp -r public/* $temp_folder
 rm -rf public
