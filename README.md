@@ -1,4 +1,5 @@
 # tomchentw-npm-dev [![Travis CI][travis-image]][travis-url] [![Quality][codeclimate-image]][codeclimate-url] [![Coverage][codeclimate-coverage-image]][codeclimate-coverage-url] [![Dependencies][gemnasium-image]][gemnasium-url] [![Gitter][gitter-image]][gitter-url]
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tomchentw/tomchentw-npm-dev?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > tomchentw's dev helpers for maintaining npm packages
 
 [![Version][npm-image]][npm-url]
